@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher", "Publisher\Publisher.csproj", "{56FA8FC2-4607-4067-ACD7-614F83C09647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlowService", "SlowSingleThreadApplication\SlowService.csproj", "{EC4AA398-DB15-4D56-B5A3-2136AEA19E78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlowServiceAdapter", "ConsumerApplication\SlowServiceAdapter.csproj", "{78FE8149-BB85-4051-9D7C-1C4C7AFAE6C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56FA8FC2-4607-4067-ACD7-614F83C09647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56FA8FC2-4607-4067-ACD7-614F83C09647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56FA8FC2-4607-4067-ACD7-614F83C09647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56FA8FC2-4607-4067-ACD7-614F83C09647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC4AA398-DB15-4D56-B5A3-2136AEA19E78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4AA398-DB15-4D56-B5A3-2136AEA19E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4AA398-DB15-4D56-B5A3-2136AEA19E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4AA398-DB15-4D56-B5A3-2136AEA19E78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78FE8149-BB85-4051-9D7C-1C4C7AFAE6C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78FE8149-BB85-4051-9D7C-1C4C7AFAE6C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78FE8149-BB85-4051-9D7C-1C4C7AFAE6C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78FE8149-BB85-4051-9D7C-1C4C7AFAE6C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MercurialSourceControlSolutionProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+EndGlobal
