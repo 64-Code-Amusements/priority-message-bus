@@ -15,7 +15,7 @@
 			{
 				message = args[0];
 			}
-			var napTime = new Random().Next(1000, 5000);
+			var napTime = new Random().Next(500,2000);
 			System.Threading.Thread.Sleep(napTime);
 			Console.Write("[{0,6}]\t{1}", napTime, message);
 		}

@@ -11,7 +11,7 @@ namespace Publisher
 			var busControl = ConfigureBus();
 			busControl.Start();
 			System.Threading.Thread.Sleep(5000);
-			for (var i = 0; i < 26; i++)
+			for (var i = 0; i < 100; i++)
 //			do
 			{
 				//				Console.WriteLine("Enter message (or quit to exit)");
